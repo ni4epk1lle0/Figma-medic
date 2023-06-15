@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Youarewelc">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/hellomessage" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/voidite" />
+
+    <TextView
+        android:text="@string/e_mail"
+        android:layout_width="95dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60px"
+        android:text="@string/Next"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="20dp"
+        android:text="@string/yan"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35mm"/>
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="@string/Yandex"
+        android:textAllCaps="false"
+        android:textColor="@color/blue" />
+
+
+</LinearLayout>

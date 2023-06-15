@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="Skip1">Пропустить</string>
+    <string name="Analysis">Анализы</string>
+    <string name="Exsipolpro">Экспресс сбор и получение проб</string>
+    <string name="Notif">Уведомление</string>
+    <string name="Vbiyores">Вы быстро узнаете о результатах</string>
+    <string name="End">Завершить</string>
+    <string name="Monitoring">Мониторинг</string>
+    <string name="pokaszatrli">Наши врачи всегда наблюдают за вашими показателями здоровья</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="voidite">Войдите, чтобы пользоваться функциями приложения</string>
+    <string name="Next">Далле</string>
+    <string name="e_mail">Вход по E-mail</string>
+    <string name="yan">Или войдиие с помощью</string>
+    <string name="Yandex">Войти с Яндекс</string>
+</resources>
