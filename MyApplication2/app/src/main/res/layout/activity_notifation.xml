@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mot"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".notifation">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -13,10 +13,13 @@
         android:orientation="horizontal"
         android:layout_marginTop="10dp">
         <Button
+            android:id="@+id/skip1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             android:text="@string/Skip1"
+            android:onClick="skipActivity"
+            android:layout_marginStart="13dp"
             android:textAllCaps="false"
             android:textColor="@color/blue"
             android:textSize="18sp"
@@ -26,7 +29,7 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16mm"
+            android:layout_marginStart="14mm"
             android:background="@drawable/plus" />
     </LinearLayout>
 
@@ -40,36 +43,35 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Monitoring"
+            android:text="@string/Notif"
             android:textColor="@color/green"
             android:textSize="20sp"
-            android:layout_marginLeft="22mm"
+            android:layout_marginLeft="21mm"
             app:layout_constraintVertical_bias="0.363" />
 
         <TextView
-            android:layout_width="235dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Vbiyores"
+            android:layout_marginLeft="14mm"
             android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text="@string/pokaszatrli"
             android:textSize="14sp"
             app:layout_constraintVertical_bias="0.442" />
 
         <ImageView
             android:layout_width="75dp"
             android:layout_height="20dp"
-            android:background="@drawable/blue3"
-            android:layout_marginLeft="25mm"
-            android:layout_marginTop="46dp"
+            android:background="@drawable/blue2"
+            android:layout_marginLeft="24mm"
+            android:layout_marginTop="50dp"
             app:layout_constraintVertical_bias="0.551" />
 
         <ImageView
-            android:layout_width="306dp"
+            android:layout_width="264dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8mm"
-            android:layout_marginTop="52dp"
-            android:background="@drawable/woman"
+            android:layout_marginLeft="11mm"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/thering"
             app:layout_constraintVertical_bias="0.969" />
     </LinearLayout>
 

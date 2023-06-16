@@ -4,31 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Analis"
+    tools:context=".Mot"
     android:orientation="vertical">
-
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="10dp">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:text="@string/Skip1"
-        android:textAllCaps="false"
-        android:textColor="@color/blue"
-        android:textSize="18sp"
-        />
+        <Button
+            android:id="@+id/skip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="@string/End"
+            android:onClick="EndActivity"
+            android:layout_marginStart="13dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="18mm"
-        android:background="@drawable/plus" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15mm"
+            android:background="@drawable/plus" />
     </LinearLayout>
 
     <LinearLayout
@@ -36,39 +38,43 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="60dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Analysis"
-            android:textColor="@color/green"
-            android:textSize="20sp"
-            android:layout_marginLeft="24mm"
-            app:layout_constraintVertical_bias="0.363" />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Exsipolpro"
-            android:layout_marginLeft="14mm"
+            android:text="@string/Monitoring"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:layout_marginLeft="22mm"
+            app:layout_constraintVertical_bias="0.363" />
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/pokaszatrli"
             android:textSize="14sp"
             app:layout_constraintVertical_bias="0.442" />
 
         <ImageView
             android:layout_width="75dp"
             android:layout_height="20dp"
-            android:background="@drawable/blue1"
-            android:layout_marginLeft="24mm"
-            android:layout_marginTop="50dp"
+            android:background="@drawable/blue3"
+            android:layout_marginLeft="25mm"
+            android:layout_marginTop="46dp"
             app:layout_constraintVertical_bias="0.551" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="306dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/illustration"
-            android:layout_marginLeft="16mm"
-            android:layout_marginTop="100dp"
+            android:layout_marginLeft="8mm"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/woman"
             app:layout_constraintVertical_bias="0.969" />
     </LinearLayout>
+
 
 </LinearLayout>

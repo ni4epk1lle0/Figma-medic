@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
+
+import java.util.Stack;
 
 public class Mot extends AppCompatActivity {
 float x1, x2, y1, y2;
@@ -33,4 +36,10 @@ float x1, x2, y1, y2;
                 break;
         }
         return false;
-}}
+}
+
+    public void EndActivity(View view) {
+        Intent intent = new Intent(this, Youarewelc.class);
+        startActivity(intent);
+    }
+}

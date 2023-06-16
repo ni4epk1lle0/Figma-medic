@@ -10,9 +10,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/logo"
-        android:layout_marginTop="45mm"
         android:layout_marginStart="11mm"
+        android:layout_marginTop="50mm"
+        android:background="@drawable/logo"
         tools:ignore="InOrMmUsage" />
 
 

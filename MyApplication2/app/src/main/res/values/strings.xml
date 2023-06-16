@@ -16,4 +16,7 @@
     <string name="e_mail">Вход по E-mail</string>
     <string name="yan">Или войдиие с помощью</string>
     <string name="Yandex">Войти с Яндекс</string>
+    <string name="example_mail_ru">example@mail.ru</string>
+    <string name="todo">TODO</string>
+    <string name="Email">Введите код из E-mail</string>
 </resources>
