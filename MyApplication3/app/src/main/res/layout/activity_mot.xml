@@ -57,7 +57,7 @@
             android:gravity="center"
             android:text="@string/pokaszatrli"
             android:textSize="14sp"
-            app:layout_constraintVertical_bias="0.442" />
+            />
 
         <ImageView
             android:layout_width="75dp"
