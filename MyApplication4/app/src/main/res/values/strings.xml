@@ -25,4 +25,10 @@
     <string name="MakeAcard">Создание карты пациента</string>
     <string name="NoCardNoOrder">Без карты пациента вы не сможете заказать аналилзы.</string>
     <string name="CardPacient">В картах пациентов будут храниться результаты анализов вас и ваших близких</string>
+    <string name="Create">Создать</string>
+    <string name="Name">Имя</string>
+    <string name="FatherName">Отчество</string>
+    <string name="SecondName">Фамлия</string>
+    <string name="day">Дата рождения</string>
+    <string name="s">Пол</string>
 </resources>

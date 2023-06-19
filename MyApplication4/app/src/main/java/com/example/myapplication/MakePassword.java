@@ -13,6 +13,5 @@ public class MakePassword extends AppCompatActivity {
         setContentView(R.layout.activity_make_password);
     }
 
-    public void skipActivity(View view) {
-    }
+
 }
