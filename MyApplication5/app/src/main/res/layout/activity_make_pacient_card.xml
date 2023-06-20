@@ -93,17 +93,13 @@
                 android:hint="@string/day"
                 android:textSize="15dp"
                 android:paddingLeft="14dp"/>
-            <EditText
-                android:id="@+id/EditGender"
-                android:layout_marginTop="24dp"
+
+            <Spinner
+                android:id="@+id/spinner2"
                 android:layout_width="370dp"
                 android:layout_height="48dp"
-                android:background="@drawable/input"
-                android:hint="@string/s"
-                android:textSize="15dp"
-                android:paddingLeft="14dp">
-            </EditText>
-
+                android:layout_marginTop="24dp"
+                />
             <Button
                 android:id="@+id/btnCrete"
                 android:layout_marginTop="48dp"

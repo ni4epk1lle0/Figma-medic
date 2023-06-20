@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string-array name="Gender">
+        <item>Мужчина</item>
+        <item>Женщина</item>
+    </string-array>
 
     <string name="Skip1">Пропустить</string>
     <string name="Analysis">Анализы</string>
@@ -31,4 +35,5 @@
     <string name="SecondName">Фамлия</string>
     <string name="day">Дата рождения</string>
     <string name="s">Пол</string>
+    <string name="Gender">Пол</string>
 </resources>
