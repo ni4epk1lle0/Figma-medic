@@ -62,7 +62,7 @@
             android:layout_width="75dp"
             android:layout_height="20dp"
             android:background="@drawable/blue2"
-            android:layout_marginLeft="24mm"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
             app:layout_constraintVertical_bias="0.551" />
 

@@ -23,7 +23,7 @@
     <string name="example_mail_ru">example@mail.ru</string>
     <string name="todo">TODO</string>
     <string name="Email">Введите код из E-mail</string>
-    <string name="_60">Отправить код повторно можно будет через 60 секунд</string>
+    <string name="_60">Отправить код повторно можно будет через секунд</string>
     <string name="MakePas">Создайте пароль</string>
     <string name="Security">Для защиты ваших персональных данных</string>
     <string name="MakeAcard">Создание карты пациента</string>

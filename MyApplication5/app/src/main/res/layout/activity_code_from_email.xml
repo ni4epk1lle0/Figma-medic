@@ -42,32 +42,41 @@
             <EditText
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:background="@drawable/input"/>
+                android:background="@drawable/input"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
             <EditText
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/input"/>
+                android:background="@drawable/input"
+                android:textSize="20dp"
+                android:gravity="center"/>
             <EditText
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/input"/>
+                android:background="@drawable/input"
+                android:textSize="20dp"
+                android:gravity="center"/>
             <EditText
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/input"/>
+                android:background="@drawable/input"
+                android:gravity="center"/>
         </LinearLayout>
 
         <TextView
+            android:id="@+id/Timer"
             android:layout_width="235dp"
             android:layout_height="40dp"
             android:layout_marginLeft="44dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="@string/_60"
+            android:text="00"
             android:textSize="14sp"
             />
 

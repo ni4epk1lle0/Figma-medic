@@ -48,6 +48,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="@string/Next"
+        android:onClick="Next"
         android:textAllCaps="false"
         android:enabled="false"/>
 
