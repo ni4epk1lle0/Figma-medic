@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:text="@string/ef"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="148dp"
+                android:layout_height="123dp"
+                android:background="@drawable/mujic"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp" >
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/NoCardNoOrder"
+                android:textSize="14sp"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:text="@string/CardPacient"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/EditName"
+                android:layout_width="370dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input"
+                android:hint="@string/Name"
+                android:textSize="15dp"
+                android:paddingLeft="14dp"/>
+            <EditText
+                android:id="@+id/EditFather"
+                android:layout_marginTop="24dp"
+                android:layout_width="370dp"
+                android:layout_height="48dp"
+                android:background="@drawable/input"
+                android:hint="@string/FatherName"
+                android:textSize="15dp"
+                android:paddingLeft="14dp"/>
+            <EditText
+                android:id="@+id/EditSecond"
+                android:layout_marginTop="24dp"
+                android:layout_width="370dp"
+                android:layout_height="48dp"
+                android:background="@drawable/input"
+                android:hint="@string/SecondName"
+                android:textSize="15dp"
+                android:paddingLeft="14dp"/>
+            <EditText
+                android:id="@+id/EditDay"
+                android:layout_marginTop="24dp"
+                android:layout_width="370dp"
+                android:layout_height="48dp"
+                android:background="@drawable/input"
+                android:hint="@string/day"
+                android:textSize="15dp"
+                android:paddingLeft="14dp"/>
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="370dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                />
+            <Button
+                android:id="@+id/btnCrete"
+                android:layout_marginTop="8dp"
+                android:layout_width="370dp"
+                android:layout_height="66dp"
+                android:text="@string/Save"
+                android:textAllCaps="false"
+                android:textSize="17dp"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

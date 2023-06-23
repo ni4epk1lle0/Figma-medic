@@ -36,4 +36,6 @@
     <string name="day">Дата рождения</string>
     <string name="s">Пол</string>
     <string name="Gender">Пол</string>
+    <string name="ef">Карта Пациента</string>
+    <string name="Save">Сохранить</string>
 </resources>

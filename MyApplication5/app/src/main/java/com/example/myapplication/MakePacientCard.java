@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -31,11 +32,16 @@ private Spinner spinner;
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         String choice = adapterView.getItemAtPosition(i).toString();
-        Toast.makeText(getApplicationContext(), choice, Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), choice, Toast.LENGTH_LONG);
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void skipActivity(View view) {
+        Intent intent = new Intent(MakePacientCard.this, NavigationActivity.class);
+        startActivity(intent);
     }
 }
